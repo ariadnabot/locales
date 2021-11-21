@@ -1,0 +1,188 @@
+{
+    "====================================": "=================================",
+    "WORDS": "===Single words for general usage===",
+    "======================================": "=================================",
+
+    "WORD_GENERAL_INFORMATIONS" :"Общая информация",
+    "WORD_DEVELOPER" : "Разработчик",
+    "WORD_VERSION": "Версия",
+    "WORD_UPTIME": "Время работы",
+    "WORD_LINKS": "Ссылки",
+    "WORD_WEAPON": "Оружие",
+    "WORD_ACTIVES_MODULES": "Активные модули",
+    "WORD_SHIP_MODIFIER": "Модификатор корабля",
+    "WORD_PRIVATE_NOTIFICATIONS": "Личные оповещения",
+    "WORD_TIMEZONE": "Временной пояс",
+    "WORD_LANGUAGE": "Язык",
+    "WORD_INGAME_NICKNAME": "Внутриигровой никнейм",
+    "WORD_EVENTS": "События",
+    "WORD_ENABLED": "Включено",
+    "WORD_DISABLED": "Выключено",
+    "CONFIG_HELP": "*Включено/выключено события с --enable / --disable flag.*",
+    "CONFIG_NO_EVENTS_ENABLED": "Нет включенных событий.",
+    "CONFIG_NO_EVENTS_DISABLED": "Нет выключенных событий.",
+    "CONFIG_USER_TITLE": "Конфигурация текущего пользователя для",
+    "CONFIG_GUILD_TITLE": "Конфигурация текущей гильдии для",
+    "WORD_NONE": "Нет",
+    "WORD_GENERAL_CONFIGURATION": "Общая конфигурация",
+    "WORD_PREFIX": "Префикс",
+    "WORD_NOTIFICATION_CHANNEL": "Канал оповещений",
+    "WORD_NOTIFICATION_ROLE": "Роль оповещений",
+    "WORD_SPECIAL_OPERATIONS": "Спецоперация",
+    "WORD_CONQUEST": "Битва за сектор",
+    "WORD_BRAWL": "Потасовка",
+    "WORD_PORTALS": "Порталы",
+
+    "WORD_DAYS": "Days",
+    "WORD_HOURS": "Hours",
+    "WORD_MINUTES": "Minutes",
+    "WORD_SECONDS": "Seconds",
+    "WORD_MILLISECONDS": "мс",
+
+    "WORD_COMMAND": "Команда",
+    "WORD_DESCRIPTION": "Описание",
+    "WORD_USAGE": "Использование",
+    "WORD_ALIASES": "Позывные",
+    "WORD_COOLDOWN": "Перезарядка",
+    "WORD_CATEGORY": "Категория",
+
+    "WORD_API_LATENCY": "API задержка",
+
+    "WORD_ORE_SINGULAR": "Руда",
+    "WORD_LOCATION": "Локация",
+    "WORD_MISSION": "Миссия",
+
+    "===============================": "=================================",
+    "EVENTS": "===Специальные фразы для события===",
+    "==============================": "==================================",
+
+    "EVENTS_MESSAGECREATE_COOLDOWN": "Пожалуйста, подождите {{timeLeft}} секунд прежде чем снова использовать `{{command}}` команду.",
+    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "Эта команда требует **arguments**.\n:white_small_square: Правильное использование: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: Для большей информации, пожалуйста, обратитесь к `{{prefix}}help {{command}}`",
+    "EVENTS_MESSAGECREATE_GUILD_ONLY": "Эта команда недоступна в личных сообщениях.\nПожалуйста, используйте команду на сервере.",
+    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Упс. Что-то пошло не так. Попробуйте снова через некоторое время. Если ошибка остаётся, пожалуйста, сообщите о ней.",
+    
+    "=====================================": "=================================",
+    "COMMAND_DESCRIPTIONS": "===Описание команд===",
+    "========================================": "==================================",
+
+    "COMMAND_DESCRIPTIONS_CONFIG": "Показывает текущую конфигурацию гильдии.",
+    "COMMAND_DESCRIPTIONS_CRAFT": "Возвращает ресурсы для крафта за корабль.",
+    "COMMAND_DESCRIPTIONS_ORES": "Возвращает расположение определённых руд.",
+    "COMMAND_DESCRIPTIONS_PATTERNS": "Возвращает шаблон для разных событий.",
+    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Возвращает лут для корабля.",
+    "COMMAND_DESCRIPTIONS_STATS": "Возвращает статистику игрока.",
+    "COMMAND_DESCRIPTIONS_BOTINFO": "Возвращает информацию бота.",
+    "COMMAND_DESCRIPTIONS_HELP": "Возвращает помощь.",
+    "COMMAND_DESCRIPTIONS_INVITE": "Возвращает ссылку для приглашения бота.",
+    "COMMAND_DESCRIPTIONS_PING": "ПОНГ!",
+
+    "===================================": "=================================",
+    "COMMANDS": "===Специальные фразы для команд===",
+    "=======================================": "==================================",
+
+    "CONFIG_CONFIGURATION_HELP": "Обновить конфигурацию с помощью **`*config <index> [ value | \"--reset\" ]`**",
+    "CONFIG_CONFIGURATION_ERROR": "Упс. Неправильный синтакс.\n:white_small_square: Correct Usage `{{prefix}}config <index> [ value | \"--reset\" ]`",
+    "CONFIG_MISSING_PERMISSIONS": "Подождите! Вам нужны права администратора / управления сервером.",
+
+
+    "CONFIG_1_RESET": "Временной пояс был сброшен на `Greenwich`.\nLocal Time:",
+    "CONFIG_1_SUCESS": "Временной пояс был изменён на `{{Timezone}}`.\nLocal Time: `{{Timestamp}}`",
+    "CONFIG_1_INVALID_TIMEZONE": "Выбран недействительный временной пояс. Все действительные опции могут быть найдены [здесь](https://github.com/The-Red-Circle/moment-timezones/blob/main/timeZones.js).",
+
+    "CONFIG_2_RESET": "Язык был сброшен на `en-US`.",
+    "CONFIG_2_SUCESS": "Язык был изменён на `{{locale}}`.",
+    "CONFIG_2_INVALID_LANGUAGE": "Выбран недействительный язык. Все доступные опции : `en-US` and `ru-RU`.",
+
+    "CONFIG_3_RESET": "Внутриигровой никнейм был сброшен.",
+    "CONFIG_3_SUCESS": "Ваш внутриигровой никнейм был изменён на `{{name}}`.",
+    "CONFIG_3_INVALID_NICKNAME": "Никнейм должен иметь длину от 2 до 16 символов и состоять из латинских букв и цифр.",
+
+    "CONFIG_4_RESET": "События были сброшены на начальные (`Нет`).",
+    "CONFIG_4_SUCESS_ALL_EVENTS": "Хорошо, следующие внутриигровые оповещения будут активировать уведомления.\n▫️`Спецоперация`\n▫️`Битва за сектор`\n▫️`Потасовка`\n▫️`Порталы`",
+    "CONFIG_4_SUCESS_EVENTLIST_TITLE": "Хорошо, следующие внутриигровые оповещения будут активировать уведомления.\n{{events}}\n",
+    "CONFIG_4_DISABLE_EVENTLIST_TITLE": "Хорошо, следующие внутриигровые оповещения теперь отключены.\n{{events}}\n",
+    "CONFIG_4_INVALID_EVENTS": "Ни одно из представленных событий не действительно.\nСледующие события действительны: `Спецоперация`, `Потасовка`, `Битва за сектор`, `Порталы`",
+    "CONFIG_4_SUCESS_DISABLE_ALL_EVENTS": "Хорошо, все события отключены. Вы не будете получать **никакие** оповещения.",
+
+    "CONFIG_6_RESET": "Префикс был установлен по умлочанию. (`*`)",
+    "CONFIG_6_SUCESS": "Префикс был изменён на {{префикс}}",
+    "CONFIG_6_INVALID_PREFIX": "Дан недействительный префикс. Попробуйте снова",
+
+    "CONFIG_7_RESET": "Канал оповещений был сброшен до начального (`Нет`).",
+    "CONFIG_7_INVALID_CHANNEL": "Дан недействительный канал. Попробуйте снова.",
+    "CONFIG_7_NO_CHANNEL_PERMISSIONS": "У меня нет доступа к этому каналу.\nПожалуйста, наделите меня необходимымя правами для этого канала или выберите другой.",
+    "CONFIG_7_NO_WEBHOOK_PERMISSIONS": "Пожалуйста наделите меня правом `Управление вебхуками` чтобы использовать эту команду.",
+    "CONFIG_7_WEBHOOK_TEST": "Оповещения для внутриигровых событий будут высылаться сюда.",
+    "CONFIG_7_SUCESS": "Канал оповещений успешно изменён на {{Channel}} (`{{ChannelId}}`)",
+
+    "CONFIG_8_RESET": "РольОповещений была изменена на (`Нет`).",
+    "CONFIG_8_INVALID_ROLE": "Выдана неправильная роль. Попробуйте снова.",
+    "CONFIG_8_SUCESS": "Роль оповещения была успешно изменена на `{{RoleName}}` (`{{RoleId}}`)",
+
+
+    "LOOT_TITLE": "Добыча для",
+    "LOOT_NO_SHIP": "Такого корабля не существует.",
+    "LOOT_NO_SHIP_TIP": "**Совет**: Замените пропуски на -**Образец**: Object NY18 -> object-ny18",
+
+    "ORE_NO_ORE": "This Ore does not exist.",
+    "ORE_NO_ORE_TIP": "**Tip**: Replace spaces with -\n**Example**: Crystal Shard -> crystal-shard",
+
+    "BOTINFO_DESCRIPTION": "Небольшой побочный проект для отслеживания различных внутриигровых событий [Star Conflict](https://star-conflict.com/en).\n\n*Join the support server for suggestions / support.*",
+
+    "CRAFT_HELP_DESCRIPTION": "Возвращает крафтовые ресурсы для корабля",
+    "CRAFT_NO_SHIP": "Этот корабль не существет или его нельзя построить.",
+    "CRAFT_EMBED_TITLE": "Построить корабль",
+    "CRAFT_EMBED_TIP": "*Нажмите на картинку для её увеличения.*",
+    "CRAFT_EMBED_LINK_DESCRIPTION": "Узнать больше о корабле.",
+
+    "PING_FIRST_MESSAGE": "В процессе...",
+
+    "INVITE_INVITE_BOT": "Пригласить бота",
+    "INVITE_SUPPORT_SERVER": "Поддержать сервер",
+
+    "HELP_OFFICIAL_PROJECT_TITLE": "Проект \"Ариадна",
+    "HELP_OFFICAL_DESCRIPTION": "Это официальный бот для игры [Star Conflict](https://star-conflict.com/en).\n Если начнётся какое-либо внутриигровое событие, он отправит оповещение через личные сообщения.\nИспользуйте `{{prefix}}help <command>` для получения большей информации по каждой команде.",
+    
+    "HELP_NO_DESCRIPTION": "Нет описания.",
+    "HELP_NO_COMMAND_FOUND": "Я не могу найти команду: {{command}}**\n\nHelp Использование команды: \n`{{prefix}}help` -  показывает все команды\n`{{prefix}}help [command]` - обеспечивает помощь с командами",
+
+ 
+    "HELP_EMBED_COMMAND_NAME" : "Команда",
+    "HELP_EMBED_DESCRIPTION": "Описание",
+    "HELP_EMBED_NO_DESCRIPTION": "Нет доступного описания",
+    "HELP_EMBED_WORD_USAGE": "Использование",
+    "HELP_EMBED_WORD_ALIASES": "Позывные",
+    "HELP_EMBED_NO_ALIAS": "Нет.",
+    "HELP_EMBED_WORD_COOLDOWN": "Перезарядка",
+    "HELP_EMBED_SECONDS": "секунд(а).",
+    "HELP_EMBED_WORD_CATEGORY": "Категория",
+    "HELP_EMBED_NO_CATEGORY": "Общее",
+
+    "PATTERNS_CONQUEST_TITLE": "PVP: Битва за сектор",
+    "PATTERNS_CONQUEST_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора. При захвате и удержании локации корпорация будет получать с неё доход.\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "PATTERNS_BRAWL_TITLE": "PVP: Потасовка",
+    "PATTERNS_BRAWL_DESCRIPTION": "Все наёмники могут показать свои способности в специальных режимах - потасовках.\nКаждая потасовка имеет собственные правила.\n**Вы можете поучаствовать в потасовках только в определённое время:**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Режимы потасовок меняются каждый день:**\n• Жук в муравейнике — Понедельник\n• Бойцовский клуб — Вторник\n• Последний герой — Среда\n• Бойцовский клуб — Четверг\n• Разведка боем — по пятницам\n• Захват маяка — по субботам\nПо воскресеньям проводятся всегда разные потасовки.\n\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+
+    "PATTERNS_SPECOPS_TITLE": "PVE: Спецоперации",
+    "PATTERNS_SPECOPS_DESCRIPTION": "Элитный отряд ЕЦН приветствует тебя!\nМы истребляем пришельцев во всех секторах! Нам доверяют самые опасные, практически невозможные миссии. И самые прибыльные, конечно.\n**Вы можете поучаствовать в спецоперациях только в определённое время:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Спецоперации меняются каждый день:**\n• `Разрушитель` — Вторник, Субботк, Воскресенье\n• `Осквернитель` — Суббота, Пятница, Воскресенье\n• `Возвращение в Эдем` — Понедельник, Четверг, Воскресенье\nПо воскресеньям спецоперации меняются.\n\nДля большей информации прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
+    
+    "PATTERNS_INVALID_SEARCH": "Нет точного варианта, возможные опции: потасовка, порталы, спецоперация и битва за сектор.",
+
+    "=============================": "=================================",
+    "NOTIFICATIONS": "===Особые фразы для уведомлений===",
+    "==================================": "==================================",
+
+    "NOTIFICATION_BRAWL_TITLE": "Потасовка началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_BRAWL_DESCRIPTION": "Все наёмники могут показать свои способности в специальных режимах — потасовках.\nКаждый br\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+
+    "NOTIFICATION_CONQUEST_TITLE": "Битва за сектор началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора.\nПри захвате и удержании локации корпорация будет получать с неё доход.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "NOTIFICATION_PORTALS_TITLE": "Порталы открыты.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_PORTALS_DESCRIPTION": "**Битва за сектор** является битвой между корпорациями на карте сектора.\nПри захвате и удержании локации корпорация будет получать с неё доход.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "NOTIFICATION_SPECOPS_TITLE": "Спецоперация началась.\nВремя: `{{timeStamp}}`",
+    "NOTIFICATION_SPECOPS_DESCRIPTION": "Элитный отряд ЕЦН приветствует тебя!\nМы истребляем пришельцев во всех секторах! Нам доверяют самые опасные, практически невозможные миссии. И самые прибыльные, конечно.\nДля получения большей информации введите команду или прочтите [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
+
+}
