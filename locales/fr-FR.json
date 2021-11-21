@@ -1,0 +1,193 @@
+{
+    "====================================": "=================================",
+    "WORDS": "=== Single words for general usage ===",
+    "======================================": "=================================",
+
+    "WORD_GENERAL_INFORMATIONS" :"informations général",
+    "WORD_DEVELOPER" : "développeur",
+    "WORD_VERSION": "Version",
+    "WORD_UPTIME": "temps d’activité",
+    "WORD_LINKS": "Lien",
+    "WORD_WEAPON": "arme",
+    "WORD_ACTIVES_MODULES": "module actif",
+    "WORD_SHIP_MODIFIER": "modificateur de vaisseau",
+    "WORD_PRIVATE_NOTIFICATIONS": "notification privée",
+    "WORD_TIMEZONE": "Fuseau horaire",
+    "WORD_LANGUAGE": "langue",
+    "WORD_INGAME_NICKNAME": "nom en jeu",
+    "WORD_EVENTS": "évènements",
+    "WORD_ENABLED": "Activé",
+    "WORD_DISABLED": "Désactivé",
+    "CONFIG_HELP": "*évènements Activé/Désactivé avec le --enable / --disable flag.*",
+    "CONFIG_NO_EVENTS_ENABLED": "Aucun événement activé.",
+    "CONFIG_NO_EVENTS_DISABLED": "Aucun événement désactivé.",
+    "CONFIG_USER_TITLE": "Configuration utilisateur actuelle pour ",
+    "CONFIG_GUILD_TITLE": "Configuration actuelle de la corporation pour ",
+    "WORD_NONE": "None",
+    "WORD_GENERAL_CONFIGURATION": "Configuration générale",
+    "WORD_PREFIX": "Préfixe",
+    "WORD_NOTIFICATION_CHANNEL": "canal de notification",
+    "WORD_NOTIFICATION_ROLE": "Rôle de notification ",
+    "WORD_SPECIAL_OPERATIONS": "opération spéciale",
+    "WORD_CONQUEST": "conquête",
+    "WORD_BRAWL": "Brawl",
+    "WORD_PORTALS": "ligue",
+
+    "WORD_DAYS": "Days",
+    "WORD_HOURS": "Hours",
+    "WORD_MINUTES": "minutes",
+    "WORD_SECONDS": "seconde",
+    "WORD_MILLISECONDS": "ms",
+
+    
+    "WORD_COMMAND": "Commande",
+    "WORD_DESCRIPTION": "Description",
+    "WORD_USAGE": "Utilisation",
+    "WORD_ALIASES": "Aliases",
+    "WORD_COOLDOWN": "Rechargement",
+    "WORD_CATEGORY": "catégorie",
+
+    "WORD_API_LATENCY": "latence de l'A.P.I. ",
+
+    "WORD_ORE_SINGULAR": "minerai",
+    "WORD_LOCATION": "Localisation",
+    "WORD_MISSION": "Mission",
+ 
+    "===============================": "=================================",
+    "EVENTS": "===Specific phrases for events===",
+    "==============================": "==================================",
+
+    "EVENTS_MESSAGECREATE_COOLDOWN": "Veuillez attendre encore {{timeLeft}} seconde(s) avant de réutiliser la commande `{{command}}` ",
+    "EVENTS_MESSAGECREATE_REQUIRED_ARGS": "Cette commande requiert **arguments**.\n:white_small_square: Usage correct: `{{prefix}}{{command}} {{usage}}`\n:white_small_square: Pour plus d'information, référez-vous à `{{prefix}}help {{command}}`",
+    "EVENTS_MESSAGECREATE_GUILD_ONLY": "Cette commande est indisponible en message privé.\nVeuillez lancer cette commande sur un serveur.",
+    "EVENTS_MESSAGECREATE_COMMAND_ERROR": " Whoops. Quelque chose s'est mal passé. Réessayez dans quelques minutes. Si l'erreur persiste, contactez le support.",
+    
+    "=====================================": "=================================",
+    "COMMAND_DESCRIPTIONS": "===Command Descriptions===",
+    "========================================": "==================================",
+
+    "COMMAND_DESCRIPTIONS_CONFIG": "Montre la configuration actuel de la guilde.",
+    "COMMAND_DESCRIPTIONS_CRAFT": "Retourne les ressources de craft d'un vaisseau.",
+    "COMMAND_DESCRIPTIONS_ORES": "Retourne la localisation des ressources.",
+    "COMMAND_DESCRIPTIONS_PATTERNS": "Retourne le calendrier des évenements.",
+    "COMMAND_DESCRIPTIONS_SHIPLOOT": "Retourne le butin d'un vaisseau.",
+    "COMMAND_DESCRIPTIONS_STATS": "Retourne les statistiques du joueur.",
+    "COMMAND_DESCRIPTIONS_BOTINFO": "Retourne les informations du bot.",
+    "COMMAND_DESCRIPTIONS_HELP": "Affiche l'aide.",
+    "COMMAND_DESCRIPTIONS_INVITE": "Retourne le lien d'invitation du bot.",
+    "COMMAND_DESCRIPTIONS_PING": "PONG!",
+
+
+
+    "===================================": "=================================",
+    "COMMANDS": "===Specific phrases for Commands===",
+    "=======================================": "==================================",
+
+    "CONFIG_CONFIGURATION_HELP": "Mettre à jour la configuration avec  **`*config <index> [ value | \"--reset\" ]`**",
+    "CONFIG_CONFIGURATION_ERROR": "Oups. Mauvaise syntaxe.\n:white_small_square: Correct Usage `{{prefix}}config <index> [ value | \"--reset\" ]`",
+    "CONFIG_MISSING_PERMISSIONS": "Vous avez besoin de l'autorisation Administrateur / Gérer le serveur .",
+
+
+    "CONFIG_1_RESET": "le fuseau horaire a été réinitialisé sur `Greenwich`.\nLocal Time:",
+    "CONFIG_1_SUCESS": "le fuseau horaire a été réglé sur `{{Timezone}}`.\nLocal Time: `{{Timestamp}}`",
+    "CONFIG_1_INVALID_TIMEZONE": "Fuseau horaire est invalide. Toutes les options peuvent être trouvées [here](https://github.com/The-Red-Circle/moment-timezones/blob/main/timeZones.js).",
+
+    "CONFIG_2_RESET": "La langue a été réinitialisée sur  `en-US`.",
+    "CONFIG_2_SUCESS": "La langue a été définie sur  `{{locale}}`.",
+    "CONFIG_2_INVALID_LANGUAGE": "Langue choisie invalide. Les options valides sont  : `en-US` et `ru-RU`.",
+
+    "CONFIG_3_RESET": "Le pseudo en jeu a été réinitialisé .",
+    "CONFIG_3_SUCESS": "Votre pseudo dans le jeu a été défini sur  `{{noms}}`.",
+    "CONFIG_3_INVALID_NICKNAME": "Le nom doit comporter de 2 à 16 symboles et se composer de lettres et de chiffres.",
+
+    "CONFIG_4_RESET": "Les événements ont été réinitialisés par défaut  (`None`).",
+    "CONFIG_4_SUCESS_ALL_EVENTS": "D'accord, les événements en jeu suivants déclencheront une notification .\n▫️`Opérations spéciales`\n▫️`conquête`\n▫️`Brawl`\n▫️`ligue`",
+    "CONFIG_4_SUCESS_EVENTLIST_TITLE": "D'accord, les événements en jeu suivants déclencheront une notification .\n{{events}}\n",
+    "CONFIG_4_DISABLE_EVENTLIST_TITLE": "D'accord, les événements en jeu suivants sont désormais désactivés .\n{{events}}\n",
+    "CONFIG_4_INVALID_EVENTS": "Aucun des événements fournis n'est valides.\nLes événements suivants sont valides`, `brawl`, `conquest`, `portals`",
+    "CONFIG_4_SUCESS_DISABLE_ALL_EVENTS": "D'accord, tous les événements sont désactivés. Vous ne recevrez **aucune** notification.", 
+
+    "CONFIG_6_RESET": "Le préfixe a été réinitialisé par défaut . (`*`)",
+    "CONFIG_6_SUCESS": "Le préfixe a été défini sur  {{prefix}}",
+    "CONFIG_6_INVALID_PREFIX": "Préfixe choisi invalide. Réessayez ",
+
+    "CONFIG_7_RESET": "Le canal de notification a été réinitialisé par défaut (`None`).",
+    "CONFIG_7_INVALID_CHANNEL": "Canal invalide. Réessayez .",
+    "CONFIG_7_NO_CHANNEL_PERMISSIONS": "Je n'ai pas accès à ce salon. \nVeuillez me donner les permissions nécessaires pour ce salon ou choisissez-en un autre.",
+    "CONFIG_7_NO_WEBHOOK_PERMISSIONS": "Veuillez me donner les permissions nécessaires pour utiliser cette commande.",
+    "CONFIG_7_WEBHOOK_TEST": "Les notifications pour les événements en jeu seront envoyées ici.",
+    "CONFIG_7_SUCESS": "Le canal de notification a été modifié avec succès sur  {{Channel}} (`{{ChannelId}}`)",
+
+    "CONFIG_8_RESET": "Le rôle des notifications a été remis par défaut (`None`).",
+    "CONFIG_8_INVALID_ROLE": "Rôle invalide. Réessayez .",
+    "CONFIG_8_SUCESS": "Rôle de notification défini avec succès sur  `{{RoleName}}` (`{{RoleId}}`)",
+
+
+    "LOOT_TITLE": "Butin pour ",
+    "LOOT_NO_SHIP": "Ce vaisseau n'existe pas .",
+    "LOOT_NO_SHIP_TIP": "**Tip**: Remplacez les espaces avec -\n**Exemple**: Object NY18 -> object-ny18",
+
+    "ORE_NO_ORE": "Ce minerai n'existe pas .",
+    "ORE_NO_ORE_TIP": "**Tip**: Remplacez les espaces avec -\n**Exemple**: Crystal Shard -> crystal-shard",
+
+    "BOTINFO_DESCRIPTION": "Petit projet parallèle pour garder une trace des différents événements du jeu  [Star Conflict](https://star-conflict.com/en).\n\n*Rejoignez le serveur de support pour des suggestions / support.*",
+
+
+
+    "CRAFT_HELP_DESCRIPTION": "Retourne les ressources de craft pour un vaisseau.",
+    "CRAFT_NO_SHIP": "Ce vaisseau n'existe pas ou n'est pas craftable.",
+    "CRAFT_EMBED_TITLE": "Craft un vaisseau.",
+    "CRAFT_EMBED_TIP": "*Cliquez sur l'image pour l’agrandir.*",
+    "CRAFT_EMBED_LINK_DESCRIPTION": "En savoir plus sur le vaisseau.",
+
+    "PING_FIRST_MESSAGE": "En travail...",
+
+    "INVITE_INVITE_BOT": "Inviter le bot",
+    "INVITE_SUPPORT_SERVER": "Serveur de support",
+ 
+    "HELP_OFFICIAL_PROJECT_TITLE": "The Ariadna Project",
+    "HELP_OFFICAL_DESCRIPTION": "This is an official bot for the Game [Star Conflict](https://star-conflict.com/en).\nIt will send a notification via direct messages if certain ingame events start.\nUse `{{prefix}}help <command>` for more info about a specific command.",
+    
+    "HELP_NO_DESCRIPTION": "No Description provided.",
+    "HELP_NO_COMMAND_FOUND": "I could not find the command: {{command}}**\n\nHelp Command Usage: \n`{{prefix}}help` -  lists all commands\n`{{prefix}}help [command]` - provides help for a command.",
+
+    "HELP_EMBED_COMMAND_NAME" : "Commande",
+    "HELP_EMBED_DESCRIPTION": "Description",
+    "HELP_EMBED_NO_DESCRIPTION": "Aucune description fournie.",
+    "HELP_EMBED_WORD_USAGE": "utilisation",
+    "HELP_EMBED_WORD_ALIASES": "Alias",
+    "HELP_EMBED_NO_ALIAS": "None.",
+    "HELP_EMBED_WORD_COOLDOWN": "rechargement",
+    "HELP_EMBED_SECONDS": "seconde.",
+    "HELP_EMBED_WORD_CATEGORY": "catégorie",
+    "HELP_EMBED_NO_CATEGORY": "Général",
+
+"PATTERNS_CONQUEST_TITLE": "PVP: Sector Conquest",
+    "PATTERNS_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map. For conquering and holding a location the corporation will earn an income.\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "PATTERNS_BRAWL_TITLE": "PVP: Brawl",
+    "PATTERNS_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach brawl has different special conditions and rules.\n**You can take part in brawls for a limited time:**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Brawl patterns change every day:**\n• Beetle in the anthill — Monday\n• Fight club — Tuesday\n• Last man standing — Wednesday\n• Fight club — Thursday\n• Combat recon — available on Fridays\n• Beacon Capture — available on Saturdays\nOn Sundays, the brawl modes will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+
+    "PATTERNS_SPECOPS_TITLE": "PVE: Special Operations",
+    "PATTERNS_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\n**You can take part in special operations for a limited time:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Special Operation patterns change every day:**\n• `The Alien Destroyer` — Tuesday, Saturday, Sunday\n• `The Defiler` — Wednesday, Friday, Sunday\n• `Return to Eden` — Monday, Thursday, Sunday\nOn Sundays, the Special Operation will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
+    "PATTERNS_INVALID_SEARCH": "No value specified, possible options are: brawl, portals, specialOperation and conquest.",
+
+
+    "=============================": "=================================",
+    "NOTIFICATIONS": "===Specific phrases for notification messages===",
+    "==================================": "==================================",
+
+    "NOTIFICATION_BRAWL_TITLE": "Brawls are starting.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach br\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+
+    "NOTIFICATION_CONQUEST_TITLE": "Sector Conquest is starting.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "NOTIFICATION_PORTALS_TITLE": "Portals are opening.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_PORTALS_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+
+    "NOTIFICATION_SPECOPS_TITLE": "Special Operations are starting.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
+
+
+}
