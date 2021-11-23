@@ -1,3 +1,4 @@
+![The Ariadna Project](https://github.com/ariadnabot/Ariadna/blob/main/src/assets/Ariadna_RADME_logo.jpg?raw=true)
 # Ariadna-Locales
 
 All of Ariadna's files used for translations.
