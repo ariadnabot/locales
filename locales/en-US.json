@@ -32,6 +32,35 @@
     "WORD_CONQUEST": "Conquest",
     "WORD_BRAWL": "Brawl",
     "WORD_PORTALS": "Portals",
+    "WORD_STATISTICS": "Statistics",
+    "WORD_CORPORATION": "Corporation",
+    "WORD_KARMA": "Karma",
+    "WORD_PILOT_RATING": "Pilot Rating",
+    "WORD_CLEARANCE_LEVEL": "Clearance Level", 
+
+    "WORD_GENERAL_INFORMATIONS_TITLE": "------------General Informations------------",
+    "WORD_PVP_TITLE":"-----------------------PVP----------------------",
+    "WORD_PVE_TITLE":"-----------------------PVE----------------------",
+    "WORD_COOP_TITLE":"----------------------Coop----------------------",
+    "WORD_MISSION_LIST_TITLE":"-----------------Mission Levels-----------------",
+
+    "WORD_GAMES_PLAYED": "Games played:",
+    "WORD_WIN": "Win",
+    "WORD_WIN_PLURAL": "Wins",
+    "WORD_DEFEAT": "Defeat",
+    "WORD_DEFEAT_PLURAL": "Defeats",
+    "WORD_WIN_RATE": "Win Rate",
+    "WORD_TOTAL_BATTLETIME": "Total Battletime",
+    "WORD_KD": "K/D",
+    "WORD_AD": "A/D",
+    "WORD_KILLS": "Kills",
+    "WORD_DEATHS": "Deaths",
+    "WORD_ASSISTS": "Assists",
+    
+
+    "WORD_ATTACK_LEVEL": "Attack Level",
+    "WORD_DEFENCE_LEVEL": "Defence Level",
+    "WORD_NO_DATA": "No Data available.",
 
     "WORD_DAYS": "Days",
     "WORD_HOURS": "Hours",
@@ -81,7 +110,7 @@
     "COMMANDS": "===Specific phrases for Commands===",
     "=======================================": "==================================",
 
-    "CONFIG_CONFIGURATION_HELP": "Update the configuration with **`*config <index> [ value | \"--reset\" ]`**",
+    "CONFIG_CONFIGURATION_HELP": "Update the configuration with **`*config <index> [ value | \"--reset\" ]`**\nOr use (**/**)Slash Commands.\nPrefixes based on the message content will be deprecated soon.",
     "CONFIG_CONFIGURATION_ERROR": "Whoops. Wrong syntax.\n:white_small_square: Correct Usage `{{prefix}}config <index> [ value | \"--reset\" ]`",
     "CONFIG_MISSING_PERMISSIONS": "Hold up! You need the Administrator / Manage Server permission.",
 
@@ -174,15 +203,15 @@
     "==================================": "==================================",
 
     "NOTIFICATION_BRAWL_TITLE": "Brawls are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach br\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+    "NOTIFICATION_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach br\n\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
 
     "NOTIFICATION_CONQUEST_TITLE": "Sector Conquest is starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\n\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
     "NOTIFICATION_PORTALS_TITLE": "Portals are opening.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_PORTALS_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_PORTALS_DESCRIPTION": "Mysterious spatial tunnels leading to various locations of space have been detected in the “Shining” zone.\nThe fight has begun! Only the strongest teams and the best pilots will be able to control the tunnels and get valuable resources!\n\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Portals#Portals).",
 
     "NOTIFICATION_SPECOPS_TITLE": "Special Operations are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
+    "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\n\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
 
 }
