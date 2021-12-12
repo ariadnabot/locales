@@ -31,7 +31,37 @@
     "WORD_SPECIAL_OPERATIONS": "opération spéciale",
     "WORD_CONQUEST": "conquête",
     "WORD_BRAWL": "Brawl",
-    "WORD_PORTALS": "ligue",
+    "WORD_PORTALS": "Ligue",
+
+    "WORD_STATISTICS": "Statistics",
+    "WORD_CORPORATION": "Corporation",
+    "WORD_KARMA": "Karma",
+    "WORD_PILOT_RATING": "Pilot Rating",
+    "WORD_CLEARANCE_LEVEL": "Clearance Level", 
+
+    "WORD_GENERAL_INFORMATIONS_TITLE": "------------General Informations------------",
+    "WORD_PVP_TITLE":"-----------------------PVP----------------------",
+    "WORD_PVE_TITLE":"-----------------------PVE----------------------",
+    "WORD_COOP_TITLE":"----------------------Coop----------------------",
+    "WORD_MISSION_LIST_TITLE":"-----------------Mission Levels-----------------",
+
+    "WORD_GAMES_PLAYED": "Games played:",
+    "WORD_WIN": "Win",
+    "WORD_WIN_PLURAL": "Wins",
+    "WORD_DEFEAT": "Defeat",
+    "WORD_DEFEAT_PLURAL": "Defeats",
+    "WORD_WIN_RATE": "Win Rate",
+    "WORD_TOTAL_BATTLETIME": "Total Battletime",
+    "WORD_KD": "K/D",
+    "WORD_AD": "A/D",
+    "WORD_KILLS": "Kills",
+    "WORD_DEATHS": "Deaths",
+    "WORD_ASSISTS": "Assists",
+    
+
+    "WORD_ATTACK_LEVEL": "Attack Level",
+    "WORD_DEFENCE_LEVEL": "Defence Level",
+    "WORD_NO_DATA": "No Data available.",
 
     "WORD_DAYS": "Days",
     "WORD_HOURS": "Hours",
@@ -146,10 +176,10 @@
     "INVITE_SUPPORT_SERVER": "Serveur de support",
  
     "HELP_OFFICIAL_PROJECT_TITLE": "The Ariadna Project",
-    "HELP_OFFICAL_DESCRIPTION": "This is an official bot for the Game [Star Conflict](https://star-conflict.com/en).\nIt will send a notification via direct messages if certain ingame events start.\nUse `{{prefix}}help <command>` for more info about a specific command.",
+    "HELP_OFFICAL_DESCRIPTION": "C'est un robot officiel pour le jeu [Star Conflict](https://star-conflict.com/en).\nIl envoie des notifications via des messages direct lorsque certain évenements commencent en jeu.\nUtilisez `{{prefix}}help <command>` pour plus de détails sur leurs fonctionnements.",
     
-    "HELP_NO_DESCRIPTION": "No Description provided.",
-    "HELP_NO_COMMAND_FOUND": "I could not find the command: {{command}}**\n\nHelp Command Usage: \n`{{prefix}}help` -  lists all commands\n`{{prefix}}help [command]` - provides help for a command.",
+    "HELP_NO_DESCRIPTION": "Aucune description disponible.",
+    "HELP_NO_COMMAND_FOUND": "Je ne trouve pas la commande: {{command}}**\n\nHelp Utilisation de la commande: \n`{{prefix}}help` -  liste toutes les commandes\n`{{prefix}}help [command]` - disponible pour une commande.",
 
     "HELP_EMBED_COMMAND_NAME" : "Commande",
     "HELP_EMBED_DESCRIPTION": "Description",
@@ -162,32 +192,32 @@
     "HELP_EMBED_WORD_CATEGORY": "catégorie",
     "HELP_EMBED_NO_CATEGORY": "Général",
 
-"PATTERNS_CONQUEST_TITLE": "PVP: Sector Conquest",
-    "PATTERNS_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map. For conquering and holding a location the corporation will earn an income.\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "PATTERNS_CONQUEST_TITLE": "PVP: Sector Conquest",
+    "PATTERNS_CONQUEST_DESCRIPTION": "**Conquête de secteur** est une bataille opposant deux corporations sur une carte de secteur. L'objectif est de conquérir puis de garder le secteur en marquant des points. Chaque secteur rapportent différentes ressources aux membres de corporation en fonction de leurs points d'influences.\nPour plus d'informations, lisez la documentation. [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
     "PATTERNS_BRAWL_TITLE": "PVP: Brawl",
-    "PATTERNS_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach brawl has different special conditions and rules.\n**You can take part in brawls for a limited time:**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Brawl patterns change every day:**\n• Beetle in the anthill — Monday\n• Fight club — Tuesday\n• Last man standing — Wednesday\n• Fight club — Thursday\n• Combat recon — available on Fridays\n• Beacon Capture — available on Saturdays\nOn Sundays, the brawl modes will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+    "PATTERNS_BRAWL_DESCRIPTION": "Tout les mercernaires peuvent tester leurs forces dans ce mode de jeu spécial. — brawls.\nChaque brawl possède des règles et conditions spécifique.\n**Vous pouvez prendre part à ce mode de jeux que pendant une durée limité.**\n• `01:00-03:00 GMT`\n• `10:00-12:00 GMT`\n• `14:00-16:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-22:00 GMT`\n**Chacun d'entre eux est disponible durant un jour spécifique:**\n• Scarabée dans la fourmilière  — Lundi\n• Club de combat — Mardi\n• Dernier homme debout — Mercredi\n• Club de combat — Jeudi\n• Bataille de recon — disponible les vendredi\n• Capture de balise — disponible samedi\nLe dimanche, les modes de brawl s'alterne .\n\nPour plus d'informations, lisez [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
 
     "PATTERNS_SPECOPS_TITLE": "PVE: Special Operations",
-    "PATTERNS_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\n**You can take part in special operations for a limited time:**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06:00-07:00 GMT`\n• `08:00-09:00 GMT`\n• `10:00-11:00 GMT`\n• `12:00-13:00 GMT`\n• `14:00-15:00 GMT`\n• `16:00-17:00 GMT`\n• `18:00-19:00 GMT`\n• `20:00-21:00 GMT`\n• `22:00-23:00 GMT`\n\n**Special Operation patterns change every day:**\n• `The Alien Destroyer` — Tuesday, Saturday, Sunday\n• `The Defiler` — Wednesday, Friday, Sunday\n• `Return to Eden` — Monday, Thursday, Sunday\nOn Sundays, the Special Operation will alternate.\n\nFor more informations read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
-    "PATTERNS_INVALID_SEARCH": "No value specified, possible options are: brawl, portals, specialOperation and conquest.",
+    "PATTERNS_SPECOPS_DESCRIPTION": "L'escouade de mercenaires Elite UMC vous souhaite la bienvenue !\nNous détruisons des extraterrestres dans tous les secteurs humains ! On nous confie les missions les plus dangereuses, presque impossibles. Et les plus rentables bien sûr.\n**Vous pouvez participer à des activités spéciales opérations pour une durée limitée :**\n• `00:00-01:00 GMT`\n• `02:00-03:00 GMT`\n• `04:00-05:00 GMT`\n• `06h00-07h00 GMT`\n• `08h00-09h00 GMT`\n• `10h00-11h00 GMT`\n• `12h00-13h00 GMT`\n• `14h00-15h00 GMT`\n• `16h00-17h00 GMT`\n• `18h00-19h00 GMT`\n• `20h00-21h00 GMT`\n• `22:00-23:00 GMT`\n\n**Les modèles d'opérations spéciales changent tous les jours :**\n• `Le profanateur` — mardi, samedi, dimanche\n• `The Defiler` — Mercredi, vendredi, dimanche\n• `Retour à Eden` — Lundi, jeudi, dimanche\nLe dimanche, l'opération spéciale alternera.\n\nPour plus d'informations, lisez  [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS).",
+    "PATTERNS_INVALID_SEARCH": "Aucune valeur spécifiée, Les options possibles sont: brawl, portails, Opération spécial et conquête.",
 
 
     "=============================": "=================================",
     "NOTIFICATIONS": "===Specific phrases for notification messages===",
     "==================================": "==================================",
 
-    "NOTIFICATION_BRAWL_TITLE": "Brawls are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_BRAWL_DESCRIPTION": "All mercenaries can test their forces in special modes — brawls.\nEach br\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
+    "NOTIFICATION_BRAWL_TITLE": "Un Brawls commence.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_BRAWL_DESCRIPTION": "Tous les mercenaires peuvent tester leurs forces dans des modes spéciaux — brawl.Pour plus d'informations, exécutez la commande associée ou lisez [this wiki entry](https://wiki.star-conflict.com/index.php?title=Brawl#Brawls).",
 
-    "NOTIFICATION_CONQUEST_TITLE": "Sector Conquest is starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_CONQUEST_TITLE": "Les conquêtes de secteurs commencent.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_CONQUEST_DESCRIPTION": "**Conquête de secteur** est une bataille opposant deux corporations sur une carte de secteur.\nGagnez des points pour conquêrir et garder le secteur.\nPour plus d'informations, executez la commande associée ou lisez [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
-    "NOTIFICATION_PORTALS_TITLE": "Portals are opening.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_PORTALS_DESCRIPTION": "**Sector Conquest** represents battles between corporations on the sector map.\nFor conquering and holding a location the corporation will earn an income.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
+    "NOTIFICATION_PORTALS_TITLE": "Les ligues commencent.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_PORTALS_DESCRIPTION": "**Ligues** est un mode de capture de balise entre des corporations. Les points marqué augmente votre influence et permet de conquérir des secteurs de portails.\nGagnez des points pour conquêrir et garder le secteur.\nPour plus d'informations, executez la commande associé ou lisez [this wiki entry](https://wiki.star-conflict.com/index.php?title=Sector_Conquest).",
 
-    "NOTIFICATION_SPECOPS_TITLE": "Special Operations are starting.\nTime Zone: `{{timeStamp}}`",
-    "NOTIFICATION_SPECOPS_DESCRIPTION": "Elite UMC mercenary squad welcomes you!\nWe're blasting Aliens across all the human sectors! We're trusted with the most dangerous, almost impossible missions. And the most profitable of course.\nFor more informations run the patterns command or read [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
+    "NOTIFICATION_SPECOPS_TITLE": "Une opération spécial commence.\nTime Zone: `{{timeStamp}}`",
+    "NOTIFICATION_SPECOPS_DESCRIPTION": "L'escouade de mercenaires Elite UMC vous souhaite la bienvenue !\nNous détruisons des extraterrestres dans tous les secteurs humains ! On nous confie les missions les plus dangereuses, presque impossibles. Et les plus rentables bien sûr.\nPour plus d'informations, executez la commande associé ou lisez [this wiki entry](https://wiki.star-conflict.com/index.php?title=SPECIAL_OPERATIONS)."
 
 
 }
